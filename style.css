@@ -50,6 +50,15 @@
   header button:hover {
     background: #5a0000;
   }
+
+  #logo {
+    cursor: pointer; 
+    transition: color 0.3s; 
+  }
+  
+  #logo:hover {
+    color: #ff6666; 
+  }
   
   main {
     display: flex;
